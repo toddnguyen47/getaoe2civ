@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"get-aoe2-civ/internal/getaoe2civ"
+	"getaoe2civ/internal/getaoe2civ"
 	"os"
 )
 

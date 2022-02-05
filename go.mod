@@ -1,4 +1,4 @@
-module get-aoe2-civ
+module getaoe2civ
 
 go 1.17
 
