@@ -20,7 +20,8 @@ func GetCiv(configFile string) {
 	rand.Seed(time.Now().Unix())
 
 	for {
-		civ := confStruct.Civs[rand.Intn(len(confStruct.Civs))]
+		randomIndex := rand.Intn(len(confStruct.Civs))
+		civ := confStruct.Civs[randomIndex]
 		fmt.Printf("Your random civ is: %s\n", civ)
 
 		reader := bufio.NewReader(os.Stdin)
